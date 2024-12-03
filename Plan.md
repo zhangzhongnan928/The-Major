@@ -34,6 +34,11 @@
 
 - **Learning Algorithms:** Enable agents to learn from interactions and evolve over time.
 
+**Tapps/Smart Layer Integration:**
+- **ERC-7738 contracts:** ERC-7738 contracts deployed on the Blockchains where NFTs are. 
+- **TokenScript templet:** Bond the AI with the NFT, and some basic functions.
+- **Smart Layer Network:** Hosting TokenScript. 
+
 **Platform Infrastructure:**
 
 - **Front-End Development:** Create a user-friendly interface for interaction with AI agents.
