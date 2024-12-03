@@ -37,7 +37,7 @@
 **Tapps/Smart Layer Integration:**
 - **ERC-7738 contracts:** ERC-7738 contracts deployed on the Blockchains where NFTs are. 
 - **TokenScript templet:** Bond the AI with the NFT, and some basic functions.
-- **Smart Layer Network:** Hosting TokenScript. 
+- **Smart Layer Network:** Host TokenScript. 
 
 **Platform Infrastructure:**
 
