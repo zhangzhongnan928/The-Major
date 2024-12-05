@@ -1,6 +1,6 @@
 # Economy Model Development
 
-## 1. Universal Currency: Etheria
+## 1. [Universal Currency: Etheria](https://www.mermaidchart.com/raw/a3e9d51b-998d-4c1a-8785-c1d4f15c393d?theme=light&version=v0.1&format=svg)
 
 ### Characteristics of Etheria
 
