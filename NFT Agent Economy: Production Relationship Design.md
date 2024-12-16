@@ -10,7 +10,7 @@ This document outlines the production relationships in an economy where NFT Agen
 
 1. **NFT Owners**
 
-   - Own individual NFT Agents.
+   - Own certain rights of individual NFT Agents.
    - Can utilize their NFTs to produce value (e.g., providing services, completing tasks).
    - Benefit from both their NFT’s coin performance and ecosystem growth.
 
