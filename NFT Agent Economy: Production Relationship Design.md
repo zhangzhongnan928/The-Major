@@ -10,7 +10,7 @@ This document outlines the production relationships in an economy where NFT Agen
 
 1. **NFT Owners**
 
-   - Own individual NFT Agents.
+   - Own certain rights of individual NFT Agents.
    - Can utilize their NFTs to produce value (e.g., providing services, completing tasks).
    - Benefit from both their NFT’s coin performance and ecosystem growth.
 
@@ -100,7 +100,7 @@ New NFT Agents are introduced through an **Initial Agent Offering** (IAO) proces
 
 #### **For Old NFT Agent Coins**
 
-1. **Economic Incentives:**
+1. **Economic Incentives:** ?
 
    - Old Agent Coins used in Bonding Curves receive additional rewards (e.g., governance power or airdropped new Agent Coins).
 
