@@ -100,7 +100,7 @@ New NFT Agents are introduced through an **Initial Agent Offering** (IAO) proces
 
 #### **For Old NFT Agent Coins**
 
-1. **Economic Incentives:**
+1. **Economic Incentives:** ?
 
    - Old Agent Coins used in Bonding Curves receive additional rewards (e.g., governance power or airdropped new Agent Coins).
 
