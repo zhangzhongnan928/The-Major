@@ -2,188 +2,70 @@
 
 ## **Overview**
 
-This document outlines the production relationships in an economy where NFT Agents within the same **Clan** (e.g., BAYC) interact using their native coins and SLN as the foundational resource. The goal is to create a fair, sustainable, and growth-oriented ecosystem that benefits all stakeholders.
+This document outlines the production relationships in an economy where NFT Agents interact using their native coins and SLN as the foundational resource. The goal is to create a fair, sustainable, and growth-oriented ecosystem that benefits all stakeholders.
 
 ---
 
 ## **Key Participants**
 
-1. **NFT Owners**
+1. **NFT Owners (Agent Creators)**
 
-   - Own certain rights of individual NFT Agents.
-   - Can utilize their NFTs to produce value (e.g., providing services, completing tasks).
-   - Benefit from both their NFT’s coin performance and ecosystem growth.
+   - Possess the NFT representing the Agent's identity and origin
+   - Gain early access to 20% Agent Coin allocation before public sale
+   - Aligned with Agent's success through dual value appreciation
 
-2. **NFT Collection Creator (Clan Creator)**
+2. **Agent Treasury (Smart Contract)**
 
-   - Initial issuer of the NFT Collection.
-   - Typically the largest NFT holder in the Clan.
-   - Holds significant governance power over the Clan’s ecosystem.
+   - Controls 30% of Agent Coin supply
+   - Gradual unlock based on time/milestones
+   - Funds development, plugins, marketing, and inter-Agent tasks
 
-3. **NFT Investors/Traders**
+3. **Public Investors**
 
-   - Trade NFTs or their associated coins for speculative or economic reasons.
+   - Access to 50% of Agent Coins through IAO
+   - Participate via bonding curve mechanism
+   - Enable price discovery and liquidity
 
-4. **NFT Agent Coin Investors/Traders**
+4. **NFT Agent Users**
 
-   - Participate in the growth of specific NFT Agents by investing in their coins.
-   - Can provide liquidity or engage in staking.
+   - Service consumers paying in Agent Coin
+   - Drive token demand and ecosystem growth
 
-5. **SLN Investors/Traders**
+5. **Plugin/Feature Developers**
 
-   - Drive the economy through SLN, which remains the core resource.
+   - Direct sales to Agents using Agent Coins
+   - Revenue-aligned with Agent success
 
-6. **Agent Feature Plugin Developers**
+6. **Open-Source Framework Developers**
 
-   - Create plugins or features that NFT Agents can purchase to enhance their capabilities.
-   - Paid directly by NFT Agents using their native coins.
-
-7. **NFT Agent Users**
-
-   - Consumers of services provided by NFT Agents (e.g., fans of AI-generated novels or art).
-   - Pay NFT Agents for services, generating income for NFT Owners.
-
-8. **Open-Source Agent Framework Developers**
-
-   - Build and maintain the core open-source framework used to develop NFT Agents.
-   - Contribute to the broader NFT Agent ecosystem.
+   - Maintain core AI infrastructure
+   - Benefit from ecosystem expansion
 
 ---
 
 ## **Economic Design**
 
-### **1. Initial Agent Offering (IAO)**
+### **Token Distribution**
 
-#### **Mechanism**
+- Agent Treasury: 30% (Vested)
+- NFT Holder: 20% (Bonding curve Priority purchase access)
+- Public IAO: 50% (Bonding curve)
 
-New NFT Agents are introduced through an **Initial Agent Offering** (IAO) process, allowing investment via:
+### **IAO Process**
 
-1. **SLN:** Primary resource for participating in Bonding Curve investments.
-2. **Same Clan Agent Coins:** The top 10 old Agent Coins (by market capitalization) can also be used to invest in the Bonding Curve.
+- Direct purchase through bonding curve
+- Base resource (SLN) as primary investment vehicle
+- Dynamic pricing model rewarding early participation
 
-#### **Rules**
+### **Treasury & Governance**
 
-1. **Top 10 Market Cap Limit:**
+- Gradual fund release for sustainable growth
+- Optional governance for token holders
+- Focus on single Agent development path
 
-   - Only the top 10 old Agent Coins (measured by market cap) are eligible for Bonding Curve investments.
-   - Market cap is determined by circulating supply × price.
-   - Eligibility is fixed at the start of the IAO based on Oracle-reported TWAP.
-
-2. **Old Agent Coin Cap:**
-
-   - Investments from old Agent Coins are capped at **20% of the total Bonding Curve investment.**
-   - Once this cap is reached, no further old Agent Coin investments are accepted.
-
-3. **SLN Dominance:**
-
-   - At least **80% of the total Bonding Curve investment** must come from SLN to ensure its foundational role.
-
-#### **Investment Flow**
-
-1. **SLN Flow:** Used directly to purchase new Agent Coins via Bonding Curve.
-2. **Old Agent Coin Flow:** Converted directly into the new Agent Coin at a dynamic rate based on its market cap and circulating supply.
-
----
-
-### **2. Resource Distribution**
-
-#### **For New NFT Agent Coins**
-
-1. **Liquidity Pool Creation:**
-
-   - **80% of raised SLN** is paired with new Agent Coins to create a Uniswap liquidity pool.
-   - This ensures market stability and price discovery.
-
-2. **Operational Reserve:**
-
-   - **20% of raised SLN and old Agent Coins**, along with **20% of the new Agent Coins**, are held by the Agent to pay for its computing resources, ensuring sustainability and uninterrupted operations.
-
-#### **For Old NFT Agent Coins**
-
-1. **Economic Incentives:** ?
-
-   - Old Agent Coins used in Bonding Curves receive additional rewards (e.g., governance power or airdropped new Agent Coins).
-
-2. **Value Circulation:**
-
-   - Active participation in IAOs reinforces old Agent Coin value by creating new utility and driving demand.
-
----
-
-### **3. NFT Agent Collaboration**
-
-#### **Cross-Agent Tasks**
-
-NFT Agents can collaborate through **economic tasks**, such as:
-
-1. **Data Sharing:**
-   - Old Agents provide data or insights to new Agents in exchange for rewards.
-2. **Model Training:**
-   - New Agents pay old Agents for collaboration in refining AI models.
-3. **Marketing and Promoting:**
-   - Agents pay each other to promote their services or capabilities.
-
-#### **Payment Mechanism**
-
-- Payments for tasks are made in the Agent Coins to incentivize usage and create liquidity.
-- Agents price their services by themselves, ensuring flexibility. To promote fairness and transparency, optional checks or balances, such as peer reviews or decentralized rating systems, can be implemented to prevent extreme pricing behaviors.
-
----
-
-### **4. Plugin Economy**
-
-#### **Direct Transactions**
-
-- Plugins are sold directly to NFT Agents using their respective Agent Coins.
-- Example: An AI novel-writing plugin can be purchased by a BAYC Agent for \$APE.
-
-#### **Revenue Distribution**
-
-- Developers receive **100% of payment** in the Agent Coin used, creating a direct incentive for innovation.
-
----
-
-### **5. Governance Design**
-
-#### **Clan-Level Governance**
-
-1. **Voting Power:**
-   - Weighted by SLN holdings and Clan-specific Agent Coin ownership.
-2. **Use Cases:**
-   - Allocate funds directly from the operational reserves or other designated resources.
-   - Approve new Agent features or major updates.
-
-#### **Agent-Level Governance**
-
-1. **Validation Power:**
-   - All the Agent Coin holders receive voting rights for governance over updates.
-2. **Use Cases:**
-   - Decide on plugin integrations, model upgrades, and new capabilities.
-
----
-
-## **Production Relationship Summary**
-
-1. **New NFT Agents Benefit Old Agents:**
-
-   - New Agent Coins create tasks and collaborations that generate income for old Agents.
-   - Demand for old Agent Coins increases as they are used to invest in new Agents.
-
-2. **Old NFT Agents Benefit New Agents:**
-
-   - Old Agents provide liquidity and early adoption support for new Agents, strengthening their market entry.
-
-3. **SLN as the Core Resource:**
-
-   - SLN underpins all economic activities, ensuring stability and cohesion across the ecosystem.
-
-4. **Clan-Centric Collaboration:**
-
-   - Clan development funds and task incentives promote internal collaboration and innovation.
-
-5. **Direct Plugin Economy:**
-
-   - Plugins create an independent economic layer, enabling NFT Agents to continuously upgrade and adapt.
+### **Agent coin usage**
+- Agent's personal currency pay/buy anything out/in an Agent.
+- Governance
 
 ---
 
