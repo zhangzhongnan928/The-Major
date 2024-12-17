@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your NFT | The Sentient Spectrum</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="transform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navigation -->
+        <nav class="top-nav">
+            <div class="nav-left">
+                <a href="index.html" class="logo">The Sentient Spectrum</a>
+            </div>
+            <button class="connect-wallet">
+                <i class="fas fa-wallet"></i>
+                Connect Wallet
+            </button>
+        </nav>
+
+        <!-- Transform Process -->
+        <div class="transform-container">
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-step active" data-step="1">
+                    <i class="fas fa-wallet"></i>
+                    <span>Connect</span>
+                </div>
+                <div class="progress-step" data-step="2">
+                    <i class="fas fa-image"></i>
+                    <span>Select NFT</span>
+                </div>
+                <div class="progress-step" data-step="3">
+                    <i class="fas fa-star"></i>
+                    <span>Core Soul</span>
+                </div>
+                <div class="progress-step" data-step="4">
+                    <i class="fas fa-brain"></i>
+                    <span>Personality</span>
+                </div>
+                <div class="progress-step" data-step="5">
+                    <i class="fas fa-cogs"></i>
+                    <span>Skills</span>
+                </div>
+            </div>
+
+            <!-- Step Content -->
+            <div class="step-content">
+                <!-- Step 1: Connect Wallet -->
+                <div class="step-panel active" id="step1">
+                    <h2>Connect Your Wallet</h2>
+                    <p>Connect your wallet to begin the transformation process</p>
+                    <div class="wallet-options">
+                        <button class="wallet-option">
+                            <img src="https://placehold.co/40x40/8B5CF6/FFFFFF?text=MM" alt="MetaMask">
+                            <span>MetaMask</span>
+                        </button>
+                        <button class="wallet-option">
+                            <img src="https://placehold.co/40x40/F472B6/FFFFFF?text=WC" alt="WalletConnect">
+                            <span>WalletConnect</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Select NFT -->
+                <div class="step-panel" id="step2">
+                    <h2>Select Your NFT</h2>
+                    <p>Choose the NFT you want to transform into an AI Agent</p>
+                    <div class="nft-grid">
+                        <!-- NFTs will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Step 3: Core Soul (Fixed + Auto-generated) -->
+                <div class="step-panel" id="step3">
+                    <h2>Core Soul Formation</h2>
+                    <div class="soul-container">
+                        <div class="fixed-traits">
+                            <h3>Collection DNA (10%)</h3>
+                            <div class="trait-card locked">
+                                <i class="fas fa-lock"></i>
+                                <h4>Collection Values</h4>
+                                <p>Based on BAYC's core principles of community and creativity</p>
+                            </div>
+                        </div>
+                        <div class="auto-traits">
+                            <h3>Generated Traits (40%)</h3>
+                            <div class="trait-card editable">
+                                <i class="fas fa-magic"></i>
+                                <h4>Personal Values</h4>
+                                <p>Generated based on your NFT's traits and wallet history</p>
+                                <button class="regenerate-btn">
+                                    <i class="fas fa-dice"></i> Regenerate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4: Personality -->
+                <div class="step-panel" id="step4">
+                    <h2>Shape Your Agent's Personality</h2>
+                    <div class="personality-editor">
+                        <div class="personality-preview">
+                            <img src="" alt="NFT Preview" id="nftPreview">
+                            <div class="personality-traits">
+                                <!-- Traits will be added here -->
+                            </div>
+                        </div>
+                        <div class="personality-suggestions">
+                            <h3>Suggested Traits</h3>
+                            <div class="trait-chips">
+                                <!-- Trait suggestions will be added here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5: Skills & Functions -->
+                <div class="step-panel" id="step5">
+                    <h2>Define Agent Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-categories">
+                            <button class="skill-category active">
+                                <i class="fas fa-paint-brush"></i>
+                                Creative
+                            </button>
+                            <button class="skill-category">
+                                <i class="fas fa-chart-line"></i>
+                                Trading
+                            </button>
+                            <button class="skill-category">
+                                <i class="fas fa-code"></i>
+                                Development
+                            </button>
+                            <button class="skill-category">
+                                <i class="fas fa-plus"></i>
+                                Custom
+                            </button>
+                        </div>
+                        <div class="skills-grid">
+                            <!-- Skills will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="step-navigation">
+                <button class="nav-btn back-btn" disabled>
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+                <button class="nav-btn next-btn">
+                    Next <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="transform.js"></script>
+</body>
+</html> 
