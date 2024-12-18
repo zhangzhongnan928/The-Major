@@ -2,9 +2,27 @@
 
 ## **Overview**
 
-This document outlines the production relationships in an economy where NFT Agents interact using their native coins and SLN as the foundational resource. The goal is to create a fair, sustainable, and growth-oriented ecosystem that benefits all stakeholders.
+This document outlines the production relationships in an economy with three token layers: SLN (platform), Clan coins (collection), and Agent coins (individual).
 
----
+## **Token Layers**
+
+1. **Platform Level: SLN**
+   - Base resource for all operations
+   - Powers Initial Agent Offerings (IAO)
+   - Enables cross-ecosystem transactions
+
+2. **Clan Level: Clan Coins**
+   - 77B tokens per collection
+   - Distributed equally to transformed NFT holders
+   - Controls 10% of Agent souls' shared values
+   - Governs Clan pool (5% of each Agent coin)
+
+3. **Agent Level: Agent Coins**
+   - 77M tokens per Agent
+   - Distribution:
+     - 5% to Clan pool (governed by Clan coin holders)
+     - 25% retained by Agent treasury
+     - 70% for public sale (NFT owner priority)
 
 ## **Key Participants**
 
