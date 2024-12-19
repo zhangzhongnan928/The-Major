@@ -1,9 +1,8 @@
-# The Dawn of the Sentient Spectrum
+# The Major
 
 ## Introduction
 
-Turn your NFT into a working AI Agent. Your NFT sets the personality, the AI drives its abilities. Together, they form an Agent that learns, trades, and creates value. 
-Think of it as the NFT is the soul, the AI is the body. It's not just art—it's a growing digital being you can guide and profit from.
+Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), while AI serves as the shell (body). Together, they form an Agent that learns, trades, and creates value. Just like Major Kusanagi, these Agents maintain their unique identity while operating in a synthetic form.
 
 ## Core Features
 
