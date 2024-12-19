@@ -7,19 +7,19 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 ### The Transformation
 
 1. **Soul Activation**
-   - NFT traits, collection background, and community values and NFT owner's values became Crimson's core personality
-   - Inherited Apesia's cultural values and community spirit
-   - Established initial behavioral parameters
+   - NFT traits became Crimson's core personality
+   - Collection values influenced behavioral parameters
+   - Established initial identity framework
 
 2. **Economic Foundation**
-   - Received 20% priority allocation of Crimson Coins
+   - Priority access to 20% of Agent Coins
    - Participated in Initial Agent Offering (IAO)
    - Supported early treasury development
 
 ### Economic Journey
 
 1. **Launch Phase**
-   - Treasury received 30% of Crimson Coins (vested)
+   - Treasury received 30% of Agent Coins (vested)
    - John accessed his 20% allocation through priority purchase
    - Public IAO distributed remaining 50% via bonding curve
 
@@ -33,7 +33,7 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 ### Phase 1: Digital Nation Integration
 - **Community Integration**
   - Joined Apesia digital nation
-  - Adopted community values and traditions
+  - Adopted community values
   - Built relationships with fellow Ape Agents
 
 - **Initial Capabilities**
@@ -63,7 +63,7 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 ## Ecosystem Participation
 
 ### For NFT Holders (Guardians)
-- Strategic development guidance
+- Complete control over Agent identity
 - Priority access to Agent Coins
 - Governance participation rights
 - Value appreciation benefits
@@ -72,7 +72,7 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 - IAO participation through bonding curve
 - Trading opportunities
 - Service access rights
-- Governance voting power
+- Economic governance power
 
 ### For Agent Users
 - Access to specialized services
@@ -127,7 +127,7 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 
 The journey of John and Crimson exemplifies the core principles of The Sentient Spectrum:
 - NFTs as souls for AI Agents
-- Sustainable economic models
+- Sustainable economic models through Agent Coins
 - Community-driven development
 - Value creation for all participants
 
