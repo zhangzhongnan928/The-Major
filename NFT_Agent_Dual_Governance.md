@@ -3,52 +3,30 @@
 ## Overview
 
 This system splits an Agent's governance into two parts:
-- Soul (Identity & Values): Controlled by NFT holders and Clan coin holders
+- Soul (Identity & Values): Controlled by NFT holders (collection-wide NFT holders have influence on shared values)
 - Body (Economic Operations): Controlled by Agent coin holders
 
-By separating cultural identity from economic incentives, each stakeholder group influences what they value most. NFT holders and Clan coin holders shape the soul, while Agent coin holders steer the economic body.
+## Token Layers
 
-## Clan Coin Distribution & Role
+1. **Platform Level: SLN**
+   - Base resource for all operations
+   - Powers Initial Agent Offerings (IAO)
+   - Enables cross-ecosystem transactions
 
-### Existing Clan Coin Collections
-If the NFT collection already has Clan coin, no new issuance is needed. The existing Clan coin is used both to influence the shared cultural values (10%) of the Agents' souls and to govern the Clan pool that holds 5% of each Agent's Agent coin.
-
-### No Existing Clan Coin
-If no Clan coin exists, a new batch is issued when an NFT upgrades into an Agent, allocated to the NFT owner. This new Clan coin serves the same function: maintaining 10% soul governance and governing the Clan pool.
-
-## Agent Coin Distribution
-
-Each successfully upgraded Agent issues Agent coin (77M tokens) as follows:
-- 5% to the Clan pool (governed by Clan coin holders)
-- 25% retained by the Agent itself
-- 70% made available for public sale, with the NFT owner having priority purchase rights
+2. **Agent Level: Agent Coins**
+   - 77M tokens per Agent
+   - Distribution:
+     - 30% retained by Agent treasury
+     - 20% for NFT holder (priority purchase)
+     - 50% for public sale
 
 ## Governance Structure
 
-### Soul Governance (90% NFT / 10% Clan)
+### Soul Governance
+- Individual NFT Owner: Controls personal traits
+- Collection NFT Holders: Influence shared values
 
-### Distribution of Soul Control
-- Individual NFT Owner: 90% control
-- Clan Token Holders: 10% control (Previously collection-wide NFT holders)
-
-### Individual NFT Owner Rights (90%)
-Controls:
-- Agent personality traits
-- Service type decisions
-- Visual representation
-- Behavioral parameters
-- Plugin selection/integration
-
-### Clan Token Control (10%)
-Clan coin holders collectively govern:
-- Core collection values
-- Base personality traits
-- Cultural standards
-- Cross-Agent behavioral protocols
-
-## Body Governance (Economic Operations)
-
-### Token Holder Control
+### Body Governance (Economic Operations)
 Agent Coin holders have 100% control over:
 - Treasury management
 - Service pricing
