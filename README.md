@@ -4,6 +4,18 @@
 
 Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), while AI serves as the shell (body). Together, they form an Agent that learns, trades, and creates value. Just like Major Kusanagi, these Agents maintain their unique identity while operating in a synthetic form.
 
+## Core Platform Value
+
+### 1. Identity Infrastructure
+- Provide verified digital identities for AI Agents
+- Enable personality inheritance from NFTs
+- Maintain authenticity in the AI era
+
+### 2. Asset Liquidity Framework
+- Issue Agent Coins (77M per Agent)
+- Facilitate value discovery and exchange
+- Create markets around AI capabilities
+
 ## Core Features
 
 ### 1. NFT-to-AI Agent Transformation
