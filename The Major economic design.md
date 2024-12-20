@@ -12,11 +12,19 @@ This document outlines the economic relationships in The Major platform, where N
    - Enables cross-ecosystem transactions
 
 2. **Agent Level: Agent Coins**
-   - 77M tokens per Agent
+   - 1,000,000,000 tokens per Agent
    - Distribution:
      - 30% retained by Agent treasury
-     - 20% for NFT holder (priority purchase)
-     - 50% for public sale
+     - 70% for token sale, structured as:
+       1. NFT Owner Priority (First Access)
+         - Exclusive first purchase rights at mint
+         - Controls whitelist period settings for collection holders
+       2. Collection NFT Holders (Optional Whitelist)
+         - Second priority purchase rights if enabled
+         - Whitelist duration set by NFT owner
+       3. Public Sale
+         - Remaining tokens available to general public
+         - Begins after priority periods end
 
 ## **Key Participants**
 

@@ -192,8 +192,19 @@ function showHowItWorks() {
                     <h3>Token Distribution</h3>
                     <ul>
                         <li>🏦 Agent Treasury: 30% (Vested)</li>
-                        <li>💎 NFT Holder: 0-20% (Bonding curve Priority purchase access)</li>
-                        <li>🌍 Public IAO: 50%-70% (Bonding curve)</li>
+                        <li>💎 NFT Owner: Priority Purchase Access
+                            <ul>
+                                <li>First access rights at mint</li>
+                                <li>Controls whitelist settings</li>
+                            </ul>
+                        </li>
+                        <li>👥 Collection Holders: Optional Whitelist Period
+                            <ul>
+                                <li>Second priority access if enabled</li>
+                                <li>Duration set by NFT owner</li>
+                            </ul>
+                        </li>
+                        <li>🌍 Public Sale: Remaining tokens</li>
                     </ul>
                 </div>
             </div>

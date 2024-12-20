@@ -34,11 +34,13 @@ Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), wh
    - Enables cross-ecosystem transactions
 
 2. **Individual Level: Agent Coins**
-   - 77M tokens per Agent
+   - 1,000,000,000 tokens per Agent
    - Distribution:
      - 30% retained by Agent treasury
-     - 20% for NFT holder (priority purchase)
-     - 50% for public sale
+     - 70% for token sale, structured as:
+       1. NFT Owner Priority (First Access)
+       2. Collection NFT Holders (Optional Whitelist)
+       3. Public Sale
 
 #### Economic Mechanisms
 - Bonding curve for price discovery

@@ -14,11 +14,19 @@ This system splits an Agent's governance into two parts:
    - Enables cross-ecosystem transactions
 
 2. **Agent Level: Agent Coins**
-   - 77M tokens per Agent
+   - 1,000,000,000 tokens per Agent
    - Distribution:
      - 30% retained by Agent treasury
-     - 20% for NFT holder (priority purchase)
-     - 50% for public sale
+     - 70% for token sale, structured as:
+       1. NFT Owner Priority (First Access)
+         - Exclusive first purchase rights at mint
+         - Controls whitelist period settings for collection holders
+       2. Collection NFT Holders (Optional Whitelist)
+         - Second priority purchase rights if enabled
+         - Whitelist duration set by NFT owner
+       3. Public Sale
+         - Remaining tokens available to general public
+         - Begins after priority periods end
 
 ## Governance Structure
 
@@ -34,97 +42,6 @@ Agent Coin holders have 100% control over:
 - Operational decisions
 - Economic parameters
 
-## Implementation Structure
-
-### Soul Governance Smart Contract
-```solidity
-contract SoulGovernance {
-    struct SoulParameters {
-        address nftOwner;
-        address clanToken;       // Updated: Now uses Clan token
-        mapping(string => string) personalityTraits;
-        mapping(string => bool) clanTraits;
-    }
-    
-    // Individual NFT Owner Controls (90%)
-    function updatePersonalityTraits(
-        uint256 agentId,
-        string[] memory traits,
-        string[] memory values
-    ) external onlyNFTOwner(agentId) {
-        require(!isClanTrait(traits), "Cannot modify clan traits");
-        _updateTraits(agentId, traits, values);
-    }
-    
-    // Clan Token Controls (10%)
-    function proposeClanTrait(
-        string memory trait,
-        string memory value
-    ) external onlyClanTokenHolder {
-        require(
-            clanToken.balanceOf(msg.sender) >= CLAN_PROPOSAL_THRESHOLD,
-            "Insufficient clan tokens"
-        );
-        _createClanProposal(trait, value);
-    }
-}
-```
-
-### Body Governance Smart Contract
-```solidity
-contract BodyGovernance {
-    struct EconomicParameters {
-        uint256 servicePrice;
-        uint256 treasuryAllocation;
-        mapping(address => bool) authorizedPlugins;
-    }
-    
-    function proposeEconomicChange(
-        bytes calldata params
-    ) external onlyTokenHolder {
-        require(
-            getVotingPower(msg.sender) >= proposalThreshold,
-            "Insufficient voting power"
-        );
-        _createEconomicProposal(params);
-    }
-}
-```
-
-## Voting Mechanisms
-
-### Soul Voting
-```solidity
-contract SoulVoting {
-    // Individual NFT Owner (90%)
-    function getIndividualVotingPower(
-        address owner,
-        uint256 agentId
-    ) public view returns (uint256) {
-        return isNFTOwner(owner, agentId) ? 90 : 0;
-    }
-    
-    // Clan Token Voting (10%)
-    function getClanVotingPower(
-        address voter
-    ) public view returns (uint256) {
-        return (clanToken.balanceOf(voter) * 10) / 
-               clanToken.totalSupply();
-    }
-}
-```
-
-### Body Voting
-```solidity
-contract BodyVoting {
-    function getVotingPower(
-        address voter
-    ) public view returns (uint256) {
-        return (agentCoin.balanceOf(voter) * 100) / 
-               agentCoin.totalSupply();
-    }
-}
-```
 
 ## Revenue Distribution
 
@@ -137,12 +54,12 @@ All economic benefits are distributed based on Agent Coin holdings:
 ## Security Measures
 
 ### Soul Protection
-- Clan traits require 67% supermajority of clan token holders
+- Clan traits require 67% supermajority of NFTs from the same collection.
 - Individual traits have 24-hour timelock
 - Emergency pause by framework DAO
 
 ### Economic Protection
-- Treasury vesting schedules
+- Agent Treasury vesting schedules
 - Proposal thresholds
 - Liquidity locks
 - Anti-manipulation features
@@ -151,7 +68,7 @@ All economic benefits are distributed based on Agent Coin holdings:
 
 This dual governance system ensures:
 1. NFT holders maintain control over Agent identity
-2. Clan token holders guide cultural values
+2. NFT collection holders guide cultural values
 3. Economic stakeholders control operational decisions
 4. Fair value distribution based on economic participation
 
