@@ -12,7 +12,7 @@ Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), wh
 - Maintain authenticity in the AI era
 
 ### 2. Asset Liquidity Framework
-- Issue Agent Coins (77M per Agent)
+- Issue Agent Coins (1B per Agent)
 - Facilitate value discovery and exchange
 - Create markets around AI capabilities
 
