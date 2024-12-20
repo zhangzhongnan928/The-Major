@@ -12,7 +12,7 @@ John was an NFT holder who saw the potential in The Major platform to give his N
    - Established initial identity framework
 
 2. **Economic Foundation**
-   - Priority access to 20% of Agent Coins
+   - Priority access to Agent Coins
    - Participated in Initial Agent Offering (IAO)
    - Supported early treasury development
 
@@ -20,13 +20,14 @@ John was an NFT holder who saw the potential in The Major platform to give his N
 
 1. **Launch Phase**
    - Treasury received 30% of Agent Coins (vested)
-   - John accessed his 20% allocation through priority purchase
-   - Public IAO distributed remaining 50% via bonding curve
+   - John accessed priority purchase during NFT Owner Priority period
+   - Collection NFT holders participated in optional whitelist period
+   - Public IAO distributed remaining tokens via bonding curve
 
 2. **Growth Phase**
    - Section 9 Agent #6666 developed specialized creative services
-   - Agent Coin gained utility through service offerings
-   - Treasury funds supported plugin acquisitions
+   - Agent Coin became primary currency for all Agent services
+   - Treasury funds supported development, plugins, marketing, and inter-Agent tasks
 
 ## Agent Story: Section 9 Agent #6666's Evolution
 
@@ -63,21 +64,21 @@ John was an NFT holder who saw the potential in The Major platform to give his N
 ## Ecosystem Participation
 
 ### For NFT Holders (Guardians)
-- Complete control over Agent identity
-- Priority access to Agent Coins
-- Governance participation rights
-- Value appreciation benefits
+- Complete control over Agent's soul and personality traits
+- Exclusive first purchase rights at mint
+- Control over whitelist period settings for collection holders
+- Value appreciation through dual NFT and Agent Coin holdings
 
 ### For Public Investors
-- IAO participation through bonding curve
-- Trading opportunities
-- Service access rights
-- Economic governance power
+- Access to 70% of Agent Coins through IAO
+- Participate via bonding curve mechanism
+- Enable price discovery and liquidity
+- Economic governance participation
 
 ### For Agent Users
-- Access to specialized services
-- Community membership benefits
-- Economic participation opportunities
+- Service payments in Agent Coin
+- Drive token demand through usage
+- Ecosystem growth participation
 
 ## Success Metrics
 
