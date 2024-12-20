@@ -1,0 +1,216 @@
+/* Sentient NFTs Page Styles */
+.sentient-content {
+    padding: 20px 0;
+}
+
+/* Header Controls */
+.sentient-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.filter-dropdown {
+    position: relative;
+}
+
+.filter-btn {
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.filter-btn i {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.create-agent-btn {
+    background: var(--gradient);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.create-agent-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+/* Table Styles */
+.sentient-table {
+    background: var(--card-bg);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 2fr repeat(6, 1fr);
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.header-cell {
+    color: var(--subtle-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.header-cell i {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Table Content */
+.table-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 2fr repeat(6, 1fr);
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.table-row:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    font-size: 0.95rem;
+}
+
+/* Agent Cell Styles */
+.agent-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.agent-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.agent-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.agent-name {
+    font-weight: 600;
+    color: var(--text);
+}
+
+.agent-tag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tag {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.tag.productivity {
+    background: rgba(193, 145, 89, 0.2);
+    color: #C19159;
+}
+
+.tag.entertainment {
+    background: rgba(69, 207, 189, 0.2);
+    color: #45CFBD;
+}
+
+.token-symbol {
+    color: var(--subtle-text);
+    font-size: 0.85rem;
+}
+
+/* Change Values */
+.change {
+    font-weight: 500;
+}
+
+.change.positive {
+    color: var(--success);
+}
+
+.change.negative {
+    color: var(--accent);
+}
+
+/* Active Navigation Link */
+.nav-link.active {
+    color: var(--primary);
+    background: rgba(139, 92, 246, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .table-header, .table-row {
+        grid-template-columns: 2fr repeat(4, 1fr);
+    }
+
+    .header-cell:nth-last-child(-n+2),
+    .cell:nth-last-child(-n+2) {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .table-header, .table-row {
+        grid-template-columns: 2fr repeat(2, 1fr);
+    }
+
+    .header-cell:nth-last-child(-n+4),
+    .cell:nth-last-child(-n+4) {
+        display: none;
+    }
+
+    .sentient-controls {
+        flex-direction: column;
+        gap: 16px;
+    }
+} 

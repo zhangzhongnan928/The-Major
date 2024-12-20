@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Governance Portal - BAYC #8697 | The Major</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="transform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navigation -->
+        <nav class="top-nav">
+            <div class="nav-left">
+                <a href="index.html" class="logo">The Major</a>
+                <a href="agent.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Agent
+                </a>
+            </div>
+            <button class="connect-wallet">
+                <i class="fas fa-wallet"></i>
+                Connect Wallet
+            </button>
+        </nav>
+
+        <!-- Governance Header -->
+        <div class="governance-header">
+            <div class="header-content">
+                <h1>BAYC #8697 Governance</h1>
+                <div class="governance-stats">
+                    <div class="stat">
+                        <span class="label">Your Voting Power</span>
+                        <span class="value">50,000 BAYC8697</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Total Proposals</span>
+                        <span class="value">12</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Active Proposals</span>
+                        <span class="value">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="governance-content">
+            <!-- Left Column: Proposals -->
+            <div class="proposals-section">
+                <div class="section-header">
+                    <h2>Active Proposals</h2>
+                    <button class="create-proposal-btn">
+                        <i class="fas fa-plus"></i>
+                        Create Proposal
+                    </button>
+                </div>
+
+                <div class="proposals-list">
+                    <!-- Example Proposals -->
+                    <div class="proposal-card">
+                        <div class="proposal-header">
+                            <h3>Update Agent Trading Strategy</h3>
+                            <span class="status active">Active</span>
+                        </div>
+                        <p class="proposal-description">
+                            Implement a new trading strategy focusing on DeFi opportunities and yield farming.
+                        </p>
+                        <div class="voting-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 65%"></div>
+                            </div>
+                            <div class="vote-stats">
+                                <span class="for">65% For</span>
+                                <span class="against">35% Against</span>
+                            </div>
+                        </div>
+                        <div class="proposal-footer">
+                            <span class="time-left">2 days left</span>
+                            <div class="vote-buttons">
+                                <button class="vote-btn for">Vote For</button>
+                                <button class="vote-btn against">Vote Against</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proposal-card">
+                        <div class="proposal-header">
+                            <h3>Add New Revenue Stream</h3>
+                            <span class="status active">Active</span>
+                        </div>
+                        <p class="proposal-description">
+                            Integrate NFT lending protocol to generate additional yield for token holders.
+                        </p>
+                        <div class="voting-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 78%"></div>
+                            </div>
+                            <div class="vote-stats">
+                                <span class="for">78% For</span>
+                                <span class="against">22% Against</span>
+                            </div>
+                        </div>
+                        <div class="proposal-footer">
+                            <span class="time-left">4 days left</span>
+                            <div class="vote-buttons">
+                                <button class="vote-btn for">Vote For</button>
+                                <button class="vote-btn against">Vote Against</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Treasury & Settings -->
+            <div class="governance-sidebar">
+                <!-- Treasury Card -->
+                <div class="treasury-card">
+                    <h3>Treasury</h3>
+                    <div class="treasury-balance">
+                        <div class="balance-item">
+                            <span class="token">BAYC8697</span>
+                            <span class="amount">300,000,000</span>
+                        </div>
+                        <div class="balance-item">
+                            <span class="token">SLN</span>
+                            <span class="amount">50,000</span>
+                        </div>
+                        <div class="balance-item">
+                            <span class="token">ETH</span>
+                            <span class="amount">25.5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agent Settings -->
+                <div class="settings-card">
+                    <h3>Agent Settings</h3>
+                    <div class="settings-list">
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Trading Strategy</h4>
+                                <p>Current: Balanced Growth</p>
+                            </div>
+                            <button class="edit-btn">
+                                <i class="fas fa-pen"></i>
+                            </button>
+                        </div>
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Revenue Distribution</h4>
+                                <p>70% Holders / 30% Treasury</p>
+                            </div>
+                            <button class="edit-btn">
+                                <i class="fas fa-pen"></i>
+                            </button>
+                        </div>
+                        <div class="setting-item">
+                            <div class="setting-info">
+                                <h4>Minimum Voting Power</h4>
+                                <p>10,000 BAYC8697</p>
+                            </div>
+                            <button class="edit-btn">
+                                <i class="fas fa-pen"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="governance.js"></script>
+</body>
+</html> 

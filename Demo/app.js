@@ -118,6 +118,12 @@ clans.forEach(clan => {
                     <span class="label">Active Agents</span>
                     <span class="value">${clan.activeAgents}</span>
                 </div>
+                <div class="stat">
+                    <a href="https://discord.gg/qcjpck534Y" target="_blank" class="agent-swarm-btn">
+                        <i class="fas fa-robot"></i>
+                        Agent Swarm
+                    </a>
+                </div>
             </div>
         </div>
     `;
@@ -144,7 +150,7 @@ document.querySelector('.connect-wallet').addEventListener('click', async () => 
         button.classList.add('connected');
         
         // Show welcome toast
-        showToast('🎉 Welcome to The Sentient Spectrum!');
+        showToast('🎉 Welcome to The Major!');
     } catch (error) {
         console.error('Wallet connection failed:', error);
         showToast('❌ Failed to connect wallet. Please try again.', 'error');
@@ -190,45 +196,79 @@ function showHowItWorks() {
                 </div>
                 <div class="benefits">
                     <h3>Token Distribution</h3>
-                    <ul>
-                        <li>🏦 Agent Treasury: 30% (Vested)</li>
-                        <li>💎 NFT Owner: Priority Purchase Access
-                            <ul>
-                                <li>First access rights at mint</li>
-                                <li>Controls whitelist settings</li>
-                            </ul>
-                        </li>
-                        <li>👥 Collection Holders: Optional Whitelist Period
-                            <ul>
-                                <li>Second priority access if enabled</li>
-                                <li>Duration set by NFT owner</li>
-                            </ul>
-                        </li>
-                        <li>🌍 Public Sale: Remaining tokens</li>
-                    </ul>
+                    <div class="token-distribution">
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="icon">🏦</span>
+                                <span class="title">Agent Treasury: 30% (Vested)</span>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="icon">💎</span>
+                                <span class="title">NFT Owner: Priority Purchase Access</span>
+                            </div>
+                            <div class="item-details">
+                                <div class="detail">First access rights at mint</div>
+                                <div class="detail">Controls whitelist settings</div>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="icon">👥</span>
+                                <span class="title">Collection Holders: Optional Whitelist Period</span>
+                            </div>
+                            <div class="item-details">
+                                <div class="detail">Second priority access if enabled</div>
+                                <div class="detail">Duration set by NFT owner</div>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="icon">🌍</span>
+                                <span class="title">Public Sale: Remaining tokens</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     `;
     document.body.appendChild(modal);
 
+    // Add show class after a brief delay to trigger animation
+    requestAnimationFrame(() => {
+        modal.classList.add('show');
+    });
+
     // Close button functionality
     const closeBtn = modal.querySelector('.close-btn');
     closeBtn.addEventListener('click', () => {
-        modal.classList.add('fade-out');
-        setTimeout(() => modal.remove(), 300);
+        closeModal(modal);
     });
 
     // Close on outside click
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
-            modal.classList.add('fade-out');
-            setTimeout(() => modal.remove(), 300);
+            closeModal(modal);
         }
     });
 
-    // Animation
-    setTimeout(() => modal.classList.add('show'), 10);
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeModal(modal);
+        }
+    });
+}
+
+// Helper function to close modal with animation
+function closeModal(modal) {
+    modal.classList.add('fade-out');
+    modal.classList.remove('show');
+    setTimeout(() => {
+        modal.remove();
+    }, 300);
 }
 
 // Toast Notification System
@@ -253,6 +293,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
+        });
+    });
+});
+
+// Handle agent card clicks
+document.addEventListener('DOMContentLoaded', () => {
+    const agentCards = document.querySelectorAll('.agent-card');
+    agentCards.forEach(card => {
+        card.style.cursor = 'pointer';
+        card.addEventListener('click', (e) => {
+            const agentName = card.querySelector('.agent-image span')?.textContent || '';
+            console.log('Clicked card name:', agentName); // Debug log
+            if (agentName === 'BAYC #8697') {
+                window.location.href = '/Demo/agent.html';
+            }
         });
     });
 }); 

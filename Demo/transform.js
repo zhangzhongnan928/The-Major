@@ -95,80 +95,163 @@ let selectedTraits = [];
 let selectedSkills = [];
 
 // Initialize the page
-document.addEventListener('DOMContentLoaded', () => {
-    updateStepDisplay();
-    populateNFTGrid();
-    setupEventListeners();
-});
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all step navigation buttons
+    const allBackButtons = document.querySelectorAll('.back-btn');
+    const allNextButtons = document.querySelectorAll('.next-btn');
+    const steps = document.querySelectorAll('.progress-step');
+    const panels = document.querySelectorAll('.step-panel');
+    const totalSteps = steps.length;
 
-// Setup event listeners
-function setupEventListeners() {
-    // Navigation buttons
-    document.querySelector('.back-btn').addEventListener('click', previousStep);
-    document.querySelector('.next-btn').addEventListener('click', nextStep);
+    // Initialize
+    updateUI();
 
-    // Wallet connection
-    document.querySelectorAll('.wallet-option').forEach(option => {
-        option.addEventListener('click', connectWallet);
-    });
-
-    // Skill category selection
-    document.querySelectorAll('.skill-category').forEach(category => {
-        category.addEventListener('click', () => {
-            document.querySelector('.skill-category.active').classList.remove('active');
-            category.classList.add('active');
-            updateSkillsGrid(category.textContent.trim().toLowerCase());
+    // Add click handlers to all back buttons
+    allBackButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (currentStep > 1) {
+                currentStep--;
+                updateUI();
+            }
         });
     });
 
-    // Regenerate traits button
-    const regenerateBtn = document.querySelector('.regenerate-btn');
-    if (regenerateBtn) {
-        regenerateBtn.addEventListener('click', () => {
-            generatedTraits = generateTraits(selectedNFT, {});
-            updateTraitsDisplay();
+    // Add click handlers to all next buttons
+    allNextButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (currentStep < totalSteps) {
+                currentStep++;
+                updateUI();
+            }
         });
-    }
-}
+    });
 
-// Step navigation
-function nextStep() {
-    if (currentStep < 5) {
-        currentStep++;
-        updateStepDisplay();
-    }
-}
-
-function previousStep() {
-    if (currentStep > 1) {
-        currentStep--;
-        updateStepDisplay();
-    }
-}
-
-// Update display based on current step
-function updateStepDisplay() {
-    // Update progress bar
-    document.querySelectorAll('.progress-step').forEach(step => {
-        const stepNum = parseInt(step.dataset.step);
-        step.classList.remove('active', 'completed');
-        if (stepNum === currentStep) {
-            step.classList.add('active');
-        } else if (stepNum < currentStep) {
-            step.classList.add('completed');
+    // Handle Agent Coin button click
+    document.addEventListener('click', (e) => {
+        if (e.target.closest('.agent-coin-btn')) {
+            currentStep = 6; // Jump to Agent Coin Issuance step
+            updateUI();
         }
     });
 
-    // Update step panels
-    document.querySelectorAll('.step-panel').forEach(panel => {
-        panel.classList.remove('active');
-    });
-    document.getElementById(`step${currentStep}`).classList.add('active');
+    // Update UI based on current step
+    function updateUI() {
+        console.log('Current step:', currentStep); // Debug log
 
-    // Update navigation buttons
-    document.querySelector('.back-btn').disabled = currentStep === 1;
-    document.querySelector('.next-btn').textContent = currentStep === 5 ? 'Transform NFT' : 'Next';
-}
+        // Update progress steps
+        steps.forEach((step, index) => {
+            const stepNum = index + 1;
+            step.classList.remove('active', 'completed');
+            
+            if (stepNum === currentStep) {
+                step.classList.add('active');
+            } else if (stepNum < currentStep) {
+                step.classList.add('completed');
+            }
+        });
+
+        // Update panels
+        panels.forEach((panel, index) => {
+            panel.classList.remove('active');
+            if (index + 1 === currentStep) {
+                panel.classList.add('active');
+            }
+        });
+
+        // Update all back buttons
+        allBackButtons.forEach(btn => {
+            btn.disabled = currentStep === 1;
+        });
+
+        // Update all next buttons
+        allNextButtons.forEach(btn => {
+            if (currentStep === 5) {
+                btn.innerHTML = 'Agent Coin <i class="fas fa-coins"></i>';
+            } else if (currentStep === totalSteps) {
+                btn.innerHTML = 'Launch <i class="fas fa-rocket"></i>';
+            } else {
+                btn.innerHTML = 'Next <i class="fas fa-arrow-right"></i>';
+            }
+        });
+
+        // Scroll to top of the new step
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // Connect Wallet Button
+    const connectWalletBtn = document.querySelector('.connect-wallet');
+    if (connectWalletBtn) {
+        connectWalletBtn.addEventListener('click', () => {
+            // Simulate wallet connection
+            connectWalletBtn.innerHTML = '<i class="fas fa-circle-check"></i> 0x1234...5678';
+            connectWalletBtn.classList.add('connected');
+            
+            // Move to next step
+            if (currentStep === 1) {
+                currentStep++;
+                updateUI();
+            }
+        });
+    }
+
+    // Wallet option buttons
+    document.querySelectorAll('.wallet-option').forEach(option => {
+        option.addEventListener('click', () => {
+            // Simulate wallet connection
+            if (connectWalletBtn) {
+                connectWalletBtn.innerHTML = '<i class="fas fa-circle-check"></i> 0x1234...5678';
+                connectWalletBtn.classList.add('connected');
+            }
+            
+            // Move to next step
+            if (currentStep === 1) {
+                currentStep++;
+                updateUI();
+            }
+        });
+    });
+
+    // Initialize NFT grid
+    populateNFTGrid();
+
+    // Handle investment amount changes
+    const investmentInput = document.querySelector('.investment-input input');
+    if (investmentInput) {
+        investmentInput.addEventListener('input', updateTokenCalculation);
+    }
+
+    // Handle Buy SLN button
+    const buySLNBtn = document.querySelector('.buy-sln-btn');
+    if (buySLNBtn) {
+        buySLNBtn.addEventListener('click', () => {
+            window.open('https://app.uniswap.org/#/swap', '_blank');
+        });
+    }
+
+    // Launch Agent and Coin button handler
+    const launchButton = document.querySelector('.launch-btn');
+    if (launchButton) {
+        launchButton.addEventListener('click', async () => {
+            try {
+                // Here you would typically:
+                // 1. Sign the blockchain transaction
+                // 2. Wait for confirmation
+                // 3. Then redirect to agent page
+                
+                // For demo purposes, we'll just redirect
+                window.location.href = 'agent.html';
+            } catch (error) {
+                console.error('Error launching agent:', error);
+                alert('Error launching agent. Please try again.');
+            }
+        });
+    }
+
+    // Rest of the initialization code...
+});
 
 // Populate NFT grid
 function populateNFTGrid() {
@@ -202,7 +285,9 @@ function selectNFT(nft) {
     generatedTraits = generateTraits(nft, {});
     
     // Enable next button
-    document.querySelector('.next-btn').disabled = false;
+    document.querySelectorAll('.next-btn').forEach(btn => {
+        btn.disabled = false;
+    });
 }
 
 // Wallet connection simulation
@@ -249,4 +334,16 @@ function updateSkillsGrid(category) {
             <p>Suggested based on your agent's traits</p>
         </div>
     `).join('');
+}
+
+// Update token calculation based on investment amount
+function updateTokenCalculation() {
+    const investmentAmount = parseFloat(this.value) || 0;
+    const tokenPrice = 0.0001; // SLN per token
+    const tokensToReceive = Math.floor(investmentAmount / tokenPrice).toLocaleString();
+    
+    const tokensElement = document.querySelector('.info-value:last-child');
+    if (tokensElement) {
+        tokensElement.textContent = tokensToReceive;
+    }
 } 
