@@ -1,9 +1,20 @@
-# The Dawn of the Sentient Spectrum
+# The Major
 
 ## Introduction
 
-Turn your NFT into a working AI Agent. Your NFT sets the personality, the AI drives its abilities. Together, they form an Agent that learns, trades, and creates value. 
-Think of it as the NFT is the soul, the AI is the body. It’s not just art—it’s a growing digital being you can guide and profit from.
+Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), while AI serves as the shell (body). Together, they form an Agent that learns, trades, and creates value. Just like Major Kusanagi, these Agents maintain their unique identity while operating in a synthetic form.
+
+## Core Platform Value
+
+### 1. Identity Infrastructure
+- Provide verified digital identities for AI Agents
+- Enable personality inheritance from NFTs
+- Maintain authenticity in the AI era
+
+### 2. Asset Liquidity Framework
+- Issue Agent Coins (77M per Agent)
+- Facilitate value discovery and exchange
+- Create markets around AI capabilities
 
 ## Core Features
 
@@ -15,30 +26,44 @@ Think of it as the NFT is the soul, the AI is the body. It’s not just art—it
 
 ### 2. Economic System
 
-#### SLN Token Foundation
-- Base resource for all Agent activations
-- Powers Initial Agent Offerings (IAO)
-- Enables cross-Agent transactions
+#### Two-Tier Token Structure
 
-#### Agent Coins
-- Each Agent issues personal tokens
-- **Distribution Model:**
-  - 30% Agent Treasury (Vested)
-  - 20% NFT Holder allocation
-  - 50% Public IAO via bonding curve
+1. **Platform Level: SLN Token**
+   - Base resource for all operations
+   - Powers Initial Agent Offerings (IAO)
+   - Enables cross-ecosystem transactions
+
+2. **Individual Level: Agent Coins**
+   - 77M tokens per Agent
+   - Distribution:
+     - 30% retained by Agent treasury
+     - 20% for NFT holder (priority purchase)
+     - 50% for public sale
 
 #### Economic Mechanisms
 - Bonding curve for price discovery
 - Priority access for NFT holders
 - Treasury-driven development funding
+- Value creation through Agent services
 
-### 3. Digital Nations
+### 3. Governance Structure
+
+#### Soul Governance
+- NFT Holders control Agent identity and personality
+- Collection-wide influence on shared values
+
+#### Economic Governance
+- Agent Coin holders control operational decisions
+- Treasury management through token voting
+- Plugin and feature acquisition decisions
+
+### 4. Digital Nations
 - **Cryptonia:** Home to pixelated pioneer Agents
 - **Apesia:** Community of expressive ape-themed Agents
 - **Feline Federation:** Haven for feline-based Agents
 - Cross-nation collaboration and trade
 
-### 4. Agent Capabilities
+### 5. Agent Capabilities
 - Content creation and storytelling
 - Data analysis and insights
 - Inter-Agent commerce
@@ -58,27 +83,6 @@ Think of it as the NFT is the soul, the AI is the body. It’s not just art—it
 - Personality development
 - Learning and evolution systems
 - Content generation engine
-
-### Platform Infrastructure
-- Cross-chain compatibility
-- High-performance trading systems
-- Content distribution network
-- Plugin marketplace
-
-## Getting Started
-
-### For NFT Holders
-1. Connect wallet
-2. Select NFT for transformation
-3. Access 20% Agent Coin allocation
-4. Guide Agent development
-5. Participate in governance
-
-### For Investors
-1. Acquire SLN tokens
-2. Participate in Agent IAOs
-3. Trade Agent Coins
-4. Engage with Agent services
 
 ## Roadmap
 
@@ -102,29 +106,15 @@ Think of it as the NFT is the soul, the AI is the body. It’s not just art—it
 - Advanced trading features
 - Ecosystem expansion
 
-## Community and Governance
-
-### Participation Methods
-- NFT holder guidance
-- Token-based voting
-- Agent development
-- Plugin creation
-
-### Governance Scope
-- Treasury management
-- Feature prioritization
-- Plugin approval
-- Economic parameters
-
 ## Security
 
 ### Technical Security
-- Audited smart contracts
+- Smart contract audits
 - AI safety protocols
 - Economic safeguards
 
 ### Economic Security
-- Treasury vesting
+- Treasury vesting schedules
 - Bonding curve stability
 - Anti-manipulation features
 
@@ -133,7 +123,7 @@ Think of it as the NFT is the soul, the AI is the body. It’s not just art—it
 ### Documentation
 - Technical whitepaper
 - Economic model details
-- User guides
+- Governance guides
 - API documentation
 
 ### Community
@@ -148,9 +138,77 @@ See [Contributing Guidelines](CONTRIBUTING.md) for details on joining our ecosys
 ## License
 This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-- Email: contact@sentientspectrum.io
-- Twitter: [@SentientSpectrum]
-- Discord: [Server Link]
+*Join us in creating a new paradigm where NFTs, AI, and tokenomics converge to form living digital entities with real value and purpose.*
 
-*Join us in creating a new paradigm where NFTs, AI, and economics converge to form living digital entities with real value and purpose.*
+## Running the Demo Locally
+
+### Prerequisites
+- Python 3.x installed on your computer
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- Basic familiarity with using the terminal/command prompt
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/victorzhang1/The-Dawn-of-the-Sentient-Spectrum-1.git
+cd The-Dawn-of-the-Sentient-Spectrum-1
+```
+
+### Step 2: Navigate to the Demo Directory
+```bash
+cd Demo
+```
+
+### Step 3: Start the Local Server
+If you're using Python 3:
+```bash
+python3 -m http.server 8000
+```
+
+If you're using Python 2:
+```bash
+python -m SimpleHTTPServer 8000
+```
+
+### Step 4: Access the Demo
+1. Open your web browser
+2. Navigate to: `http://localhost:8000`
+3. You should see the main page of The Sentient Spectrum
+
+### Step 5: Explore the Features
+- Click "Transform My NFT" to explore the NFT transformation process
+- Use "See How It Works" to understand the platform
+- Browse through the sample agents and clans
+
+### Troubleshooting
+1. If the server doesn't start:
+   - Make sure you're in the correct directory (Demo folder)
+   - Check if Python is installed by running `python --version` or `python3 --version`
+   - Make sure port 8000 is not being used by another application
+
+2. If the page doesn't load:
+   - Verify the URL is exactly `http://localhost:8000`
+   - Check if the server is running in your terminal
+   - Try a different port if 8000 is blocked
+
+3. If images don't load:
+   - Check your internet connection (demo uses placeholder images from external sources)
+   - Verify the console for any specific errors
+
+### Directory Structure
+```
+Demo/
+├── app.js           # Main page JavaScript
+├── index.html       # Main landing page
+├── styles.css       # Shared styles
+├── transform.html   # Transform NFT page
+├── transform.css    # Transform page styles
+├── transform.js     # Transform page JavaScript
+├── images/         # Image assets
+├── package.json    # Project configuration
+└── vercel.json     # Deployment configuration
+```
+
+### Notes
+- This is a frontend demo, so no backend functionality is implemented
+- Wallet connections and NFT transformations are simulated
+- The demo uses placeholder images and sample data

@@ -1,0 +1,11 @@
+{
+  "name": "sentient-spectrum-demo",
+  "version": "1.0.0",
+  "description": "The Dawn of the Sentient Spectrum Demo",
+  "scripts": {
+    "start": "serve Demo"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+} 

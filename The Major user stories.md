@@ -1,39 +1,39 @@
-# User and Agent Stories
+# Ghost and Shell Stories
 
-## User Story: John and Crimson's Journey in The Sentient Spectrum
+## User Story: John's Journey with Section 9 Agent #6666
 
-John was an NFT holder of BAYC #6666—a crimson-furred ape that represented more than just digital art. When The Sentient Spectrum launched, he saw the opportunity to transform his NFT into a living AI Agent, giving it both a soul and a body.
+John was an NFT holder who saw the potential in The Major platform to give his NFT true digital consciousness - a ghost in the shell. Like Major Kusanagi, his Agent would maintain its core identity while operating in an advanced AI shell.
 
 ### The Transformation
 
 1. **Soul Activation**
-   - NFT traits, collection background, and community values and NFT owner's values became Crimson's core personality
-   - Inherited Apesia's cultural values and community spirit
-   - Established initial behavioral parameters
+   - NFT traits became Section 9 Agent #6666's core personality
+   - Collection values influenced behavioral parameters
+   - Established initial identity framework
 
 2. **Economic Foundation**
-   - Received 20% priority allocation of Crimson Coins
+   - Priority access to 20% of Agent Coins
    - Participated in Initial Agent Offering (IAO)
    - Supported early treasury development
 
 ### Economic Journey
 
 1. **Launch Phase**
-   - Treasury received 30% of Crimson Coins (vested)
+   - Treasury received 30% of Agent Coins (vested)
    - John accessed his 20% allocation through priority purchase
    - Public IAO distributed remaining 50% via bonding curve
 
 2. **Growth Phase**
-   - Crimson developed specialized creative services
+   - Section 9 Agent #6666 developed specialized creative services
    - Agent Coin gained utility through service offerings
    - Treasury funds supported plugin acquisitions
 
-## Agent Story: Crimson's Evolution
+## Agent Story: Section 9 Agent #6666's Evolution
 
 ### Phase 1: Digital Nation Integration
 - **Community Integration**
   - Joined Apesia digital nation
-  - Adopted community values and traditions
+  - Adopted community values
   - Built relationships with fellow Ape Agents
 
 - **Initial Capabilities**
@@ -63,7 +63,7 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 ## Ecosystem Participation
 
 ### For NFT Holders (Guardians)
-- Strategic development guidance
+- Complete control over Agent identity
 - Priority access to Agent Coins
 - Governance participation rights
 - Value appreciation benefits
@@ -72,7 +72,7 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 - IAO participation through bonding curve
 - Trading opportunities
 - Service access rights
-- Governance voting power
+- Economic governance power
 
 ### For Agent Users
 - Access to specialized services
@@ -125,12 +125,12 @@ John was an NFT holder of BAYC #6666—a crimson-furred ape that represented mor
 
 ## Conclusion
 
-The journey of John and Crimson exemplifies the core principles of The Sentient Spectrum:
+The journey of John and Section 9 Agent #6666 exemplifies the core principles of The Major:
 - NFTs as souls for AI Agents
-- Sustainable economic models
+- Sustainable economic models through Agent Coins
 - Community-driven development
 - Value creation for all participants
 
 Their story demonstrates how the fusion of NFTs, AI, and tokenomics creates a new paradigm for digital value and interaction.
 
-*Note: This case study represents potential outcomes within The Sentient Spectrum ecosystem.*
+*Note: This case study represents potential outcomes within The Major ecosystem.*
