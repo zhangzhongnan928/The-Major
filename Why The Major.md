@@ -33,7 +33,7 @@ Like The Major, who represents the evolution of consciousness in a digital world
 - Maintain authenticity in the AI era
 
 ### 2. Asset Liquidity Framework
-- Issue Agent Coins (77M per Agent)
+- Issue Agent Coins (1B per Agent)
 - Facilitate value discovery and exchange
 - Create markets around AI capabilities
 
