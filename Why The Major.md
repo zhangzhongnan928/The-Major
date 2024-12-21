@@ -28,7 +28,7 @@ Like The Major, who represents the evolution of consciousness in a digital world
 ## Core Platform Value
 
 ### 1. Identity Infrastructure
-- Provide verified digital identities for AI Agents
+- Provide cross platform verifiable digital identities for AI Agents
 - Enable personality inheritance from NFTs
 - Maintain authenticity in the AI era
 
