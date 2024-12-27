@@ -130,7 +130,7 @@ Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), wh
 
 ### Community
 - Discord: [Link]
-- Twitter: [@SentientSpectrum]
+- Twitter: [Link]
 - Telegram: [Link]
 - Medium: [Link]
 
