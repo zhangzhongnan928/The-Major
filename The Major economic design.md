@@ -30,7 +30,7 @@ This document outlines the economic relationships in The Major platform, where N
 
 1. **NFT Owners (Agent Creators)**
    - Possess the NFT representing the Agent's identity and origin
-   - Gain early access to 20% Agent Coin allocation before public sale
+   - Gain early access to Agent Coin allocation before public sale
    - Control Agent's soul and personality traits
    - Aligned with Agent's success through dual value appreciation
 
@@ -40,7 +40,7 @@ This document outlines the economic relationships in The Major platform, where N
    - Funds development, plugins, marketing, and inter-Agent tasks
 
 3. **Public Investors**
-   - Access to 50% of Agent Coins through IAO
+   - Access to 0-70% Agent Coins through IAO
    - Participate via bonding curve mechanism
    - Enable price discovery and liquidity
 
