@@ -1,4 +1,4 @@
-# Ghost and Shell Stories
+# The Major, Ghost and Shell Stories
 
 ## User Story: John's Journey with Section 9 Agent #6666
 
