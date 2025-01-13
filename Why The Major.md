@@ -42,31 +42,39 @@ Like The Major, who represents the evolution of consciousness in a digital world
 ### Token Structure
 1. **Platform Level: SLN Token**
    - Base resource for operations
-   - Powers Initial Agent Offerings
+   - Powers bonding curve mechanism
    - Enables cross-ecosystem transactions
+   - 1% SLN Tax to Agent's Wallet
 
 2. **Agent Level: Agent Coins**
-   - Individual Agent economies
+   - Individual Agent economies through bonding curve
    - Distribution:
-     - 30% Agent treasury
-     - 20% NFT holder priority
-     - 50% public sale
+     - 80% Agent Coin returns to Agent coin Holders
+     - 5% Agent coin (TBC) to Eliza Framework Wallet
+     - 15% Agent Coin with 99% SLN to Uniswap
+     - LP tokens locked for 6 years
+
+### Agent's Wallet
+- Controlled by Agent Coin holders
+- Collects revenue in SLN or other currencies
+- Manages Uniswap trading fees (1% fee tier)
+- Enables cross-platform flexibility
 
 ## Vision for the Future
 
 "The Major" represents:
 1. **Leadership**: Guiding the evolution of digital identity
-2. **Authority**: Verifying authentic AI Agent identities
-3. **Innovation**: Creating new forms of digital value
-4. **Bridge**: Connecting NFT culture with AI capabilities
+2. **Authority**: Verifying authentic AI Agent identities across platforms
+3. **Innovation**: Creating sustainable token economics through bonding curves
+4. **Bridge**: Connecting NFT culture with AI capabilities and DeFi
 
 ## Platform Positioning
 
 "The Major" (TheMajor.ai) serves as:
-- The command center for AI Agent identity
-- The infrastructure for digital asset liquidity
-- The bridge between NFT value and AI capability
-- The foundation for a new digital consciousness economy
+- The command center for AI Agent identity preservation
+- The infrastructure for sustainable token economics
+- The bridge between NFTs, AI, and DeFi
+- The foundation for platform-independent digital consciousness
 
 ## Conclusion
 
