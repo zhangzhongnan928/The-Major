@@ -15,53 +15,45 @@ This system splits an Agent's governance into two parts:
 
 2. **Agent Level: Agent Coins**
    - 1,000,000,000 tokens per Agent
-   - Distribution:
-     - 30% retained by Agent treasury
-     - 70% for token sale, structured as:
-       1. NFT Owner Priority (First Access)
-         - Exclusive first purchase rights at mint
-         - Controls whitelist period settings for collection holders
-       2. Collection NFT Holders (Optional Whitelist)
-         - Second priority purchase rights if enabled
-         - Whitelist duration set by NFT owner
-       3. Public Sale
-         - Remaining tokens available to general public
-         - Begins after priority periods end
+   - Distribution through bonding curve mechanism:
+     - 80% Agent Coin returns to Agent coin Holders
+     - 5% Agent coin (TBC) goes to Eliza Framework Wallet
+     - 15% Agent Coin goes to Uniswap with 99% SLN
+     - LP tokens locked for 6 years for the Agent
 
 ## Governance Structure
 
 ### Soul Governance
-- Individual NFT Owner: Controls personal traits
+- Individual NFT Owner: Controls personal traits and identity in The Major Platform
 - Collection NFT Holders: Influence shared values
+- Initial contribution: 10K SLN (TBC based on Agent cost)
 
 ### Body Governance (Economic Operations)
-Agent Coin holders have 100% control over:
-- Treasury management
-- Service pricing
-- Revenue distribution
-- Operational decisions
-- Economic parameters
-
+Agent Coin holders have control over:
+- Treasury management and Agent's Wallet
+- Service pricing and revenue distribution
+- Operational decisions and economic parameters
+- Platform selection (while maintaining identity and governance in The Major)
 
 ## Revenue Distribution
 
-All economic benefits are distributed based on Agent Coin holdings:
-- Service revenue
+All economic benefits flow through Agent's Wallet:
+- Service revenue in SLN or other currencies
+- Uniswap trading fees (1% fee tier)
 - Plugin licensing fees
-- Treasury distributions
 - Partnership income
 
 ## Security Measures
 
 ### Soul Protection
-- Clan traits require 67% supermajority of NFTs from the same collection.
+- Clan traits require 67% supermajority of NFTs from the same collection
 - Individual traits have 24-hour timelock
 - Emergency pause by framework DAO
 
 ### Economic Protection
-- Agent Treasury vesting schedules
-- Proposal thresholds
-- Liquidity locks
+- LP tokens locked for 6 years
+- 1% SLN Tax to Agent's Wallet
+- Bonding curve stability mechanisms
 - Anti-manipulation features
 
 ## Conclusion
@@ -69,7 +61,7 @@ All economic benefits are distributed based on Agent Coin holdings:
 This dual governance system ensures:
 1. NFT holders maintain control over Agent identity
 2. NFT collection holders guide cultural values
-3. Economic stakeholders control operational decisions
-4. Fair value distribution based on economic participation
+3. Economic stakeholders control operational decisions through Agent's Wallet
+4. Fair value distribution based on economic participation and governance
 
-The system creates a balanced ecosystem where individual, cultural, and economic interests are protected and aligned.
+The system creates a balanced ecosystem where individual, cultural, and economic interests are protected and aligned, while maintaining flexibility for cross-platform operations.
