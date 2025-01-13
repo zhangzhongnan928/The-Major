@@ -35,28 +35,30 @@ Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), wh
 
 2. **Individual Level: Agent Coins**
    - 1,000,000,000 tokens per Agent
-   - Distribution:
-     - 30% retained by Agent treasury
-     - 70% for token sale, structured as:
-       1. NFT Owner Priority (First Access)
-       2. Collection NFT Holders (Optional Whitelist)
-       3. Public Sale
+   - Distribution through bonding curve mechanism:
+     - 80% Agent Coin returns to Agent coin Holders
+     - 5% Agent coin (TBC) goes to Eliza Framework Wallet
+     - 15% Agent Coin goes to Uniswap with 99% SLN
+     - LP tokens locked for 6 years for the Agent
 
 #### Economic Mechanisms
-- Bonding curve for price discovery
-- Priority access for NFT holders
-- Treasury-driven development funding
-- Value creation through Agent services
+- Bonding curve for price discovery and token distribution
+- NFT owners contribute 10K SLN (TBC based on Agent cost)
+- Agent's Wallet governance by token holders
+- Value creation through Agent services and Uniswap trading fees
+- Cross-platform flexibility while maintaining identity in The Major
 
 ### 3. Governance Structure
 
 #### Soul Governance
-- NFT Holders control Agent identity and personality
+- NFT Holders control Agent identity and personality in The Major Platform
 - Collection-wide influence on shared values
+- Platform-independent identity preservation
 
 #### Economic Governance
-- Agent Coin holders control operational decisions
-- Treasury management through token voting
+- Agent Coin holders control Agent's Wallet and operations
+- Revenue distribution in SLN or other currencies
+- Platform selection while maintaining core identity
 - Plugin and feature acquisition decisions
 
 ### 4. Digital Nations
@@ -116,8 +118,9 @@ Transform your NFT into a living AI Agent. Your NFT becomes the ghost (soul), wh
 - Economic safeguards
 
 ### Economic Security
-- Treasury vesting schedules
-- Bonding curve stability
+- LP tokens locked for 6 years
+- 1% SLN Tax to Agent's Wallet
+- Bonding curve stability mechanisms
 - Anti-manipulation features
 
 ## Resources
