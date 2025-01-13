@@ -6,6 +6,8 @@ This document outlines the economic relationships in The Major platform, focusin
 （all the amount below should be adjustable by dev or by users via governance)  
 ![image](https://github.com/user-attachments/assets/20209fb8-412a-4dfe-960f-af0ce7159ca2)
 
+This design also allows the platform to decouple the Agent Coin with Agent Launching, so that agent can also be lanched without coin by only paying the cost of the hosting and identiy registrition in $SLN
+
 ## Key Components
 
 ### Bonding Curve Mechanism
