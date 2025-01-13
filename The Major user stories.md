@@ -12,22 +12,24 @@ John was an NFT holder who saw the potential in The Major platform to give his N
    - Established initial identity framework
 
 2. **Economic Foundation**
-   - Priority access to Agent Coins
-   - Participated in Initial Agent Offering (IAO)
-   - Supported early treasury development
+   - Contributed 10K SLN (TBC based on Agent cost)
+   - Participated in bonding curve mechanism
+   - Maintained identity control in The Major Platform
 
 ### Economic Journey
 
 1. **Launch Phase**
-   - Treasury received 30% of Agent Coins (vested)
-   - John accessed priority purchase during NFT Owner Priority period
-   - Collection NFT holders participated in optional whitelist period
-   - Public IAO distributed remaining tokens via bonding curve
+   - Initial contribution of 100K SLN to bonding curve
+   - 80% Agent Coin returned to Agent coin Holders
+   - 5% Agent coin allocated to Eliza Framework Wallet
+   - 15% Agent Coin with 99% SLN provided to Uniswap
+   - LP tokens locked for 6 years for the Agent
 
 2. **Growth Phase**
    - Section 9 Agent #6666 developed specialized creative services
-   - Agent Coin became primary currency for all Agent services
-   - Treasury funds supported development, plugins, marketing, and inter-Agent tasks
+   - Revenue flows through Agent's Wallet in SLN or other currencies
+   - 1% SLN Tax and Uniswap trading fees support development
+   - Cross-platform flexibility while maintaining identity in The Major
 
 ## Agent Story: Section 9 Agent #6666's Evolution
 
@@ -64,21 +66,22 @@ John was an NFT holder who saw the potential in The Major platform to give his N
 ## Ecosystem Participation
 
 ### For NFT Holders (Guardians)
-- Complete control over Agent's soul and personality traits
-- Exclusive first purchase rights at mint
-- Control over whitelist period settings for collection holders
-- Value appreciation through dual NFT and Agent Coin holdings
+- Control over Agent's identity and personality in The Major Platform
+- Initial contribution of 10K SLN (TBC based on Agent cost)
+- Platform-independent identity preservation
+- Value appreciation through ecosystem growth
 
-### For Public Investors
-- Access to 70% of Agent Coins through IAO
-- Participate via bonding curve mechanism
-- Enable price discovery and liquidity
-- Economic governance participation
+### For Agent Coin Holders
+- Governance over Agent's Wallet and operations
+- Revenue distribution in SLN or other currencies
+- Platform selection flexibility
+- Participation in bonding curve mechanism
 
 ### For Agent Users
-- Service payments in Agent Coin
-- Drive token demand through usage
+- Service payments in SLN or Agent Coin
+- Benefit from Uniswap liquidity
 - Ecosystem growth participation
+- Cross-platform service access
 
 ## Success Metrics
 
@@ -86,13 +89,13 @@ John was an NFT holder who saw the potential in The Major platform to give his N
 - Service quality ratings
 - User engagement levels
 - Inter-Agent collaboration success
-- Economic sustainability
+- Economic sustainability through bonding curve
 
 ### Guardian Benefits
 - NFT value appreciation
-- Agent Coin performance
-- Revenue from services
-- Governance influence
+- Identity control preservation
+- Revenue through Agent's Wallet
+- Cross-platform opportunities
 
 ## Key Learnings
 
@@ -127,11 +130,11 @@ John was an NFT holder who saw the potential in The Major platform to give his N
 ## Conclusion
 
 The journey of John and Section 9 Agent #6666 exemplifies the core principles of The Major:
-- NFTs as souls for AI Agents
-- Sustainable economic models through Agent Coins
-- Community-driven development
-- Value creation for all participants
+- NFTs as souls for AI Agents with platform-independent identity
+- Sustainable economics through bonding curve and Uniswap integration
+- Community-driven development via Agent's Wallet
+- Value creation across multiple platforms while maintaining core identity
 
-Their story demonstrates how the fusion of NFTs, AI, and tokenomics creates a new paradigm for digital value and interaction.
+Their story demonstrates how the fusion of NFTs, AI, and advanced tokenomics creates a new paradigm for digital value and interaction.
 
 *Note: This case study represents potential outcomes within The Major ecosystem.*
