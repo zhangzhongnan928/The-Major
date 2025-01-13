@@ -3,6 +3,7 @@
 ## Overview
 
 This document outlines the economic relationships in The Major platform, focusing on the bonding curve mechanism and token distribution flow.
+![image](https://github.com/user-attachments/assets/20209fb8-412a-4dfe-960f-af0ce7159ca2)
 
 ## Key Components
 
